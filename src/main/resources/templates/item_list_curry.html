@@ -74,6 +74,7 @@
               </div>
               <form th:action="@{/itemSort}" method="post">
                 <select name="sort">
+                <option>-----------</option>
                   <option th:value="high">価格の高い順</option>
                   <option th:value="low">価格の低い順</option>
                 </select>
